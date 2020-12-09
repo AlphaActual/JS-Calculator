@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>JS CALCULATOR</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+
+    <body onload="blink();">
+        
+        <div class="outerBody">
+           <div class="brandName"> <h3 >IBM</h3></div>
+            <div class="innerBody">
+                <div class="displayBox">
+                    <h3 class="displayedValue" id="disValue">|</h3>
+
+                </div>
+                <button class="operatorButton" id="clear">C</button>
+                <div class="numbers">
+                    <button class="numberButton disableControl" id="1">1</button>
+                    <button class="numberButton disableControl" id="2">2</button>
+                    <button class="numberButton disableControl" id="3">3</button>
+                    <br>
+                    <button class="numberButton disableControl" id="4">4</button>
+                    <button class="numberButton disableControl" id="5">5</button>
+                    <button class="numberButton disableControl" id="6">6</button>
+                    <br>
+                    <button class="numberButton disableControl" id="7">7</button>
+                    <button class="numberButton disableControl" id="8">8</button>
+                    <button class="numberButton disableControl" id="9">9</button>
+                    <br>
+                    <button class="numberButton" id="remove">&lt&#215</button>
+                    <button class="numberButton disableControl" id="0">0</button>
+                    <button class="numberButton disableControl" id=".">.</button>
+        
+
+                </div>
+
+                <div class="operators">
+                    <button class="operatorButton disableControl" id="+">+</button>
+                    <br>
+                    <button class="operatorButton disableControl" id="-">-</button>
+                    <br>
+                    <button class="operatorButton disableControl" id="*">*</button>
+                    <br>
+                    <button class="operatorButton disableControl" id="/">/</button>
+                    <br>
+                    <button class="operatorButton" id="=">=</button>
+                    
+                    
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+   <script defer src="script.js"></script>
+</html>

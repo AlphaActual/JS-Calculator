@@ -1,0 +1,149 @@
+
+body{
+    background-image: linear-gradient(to right , red , yellow);
+}
+.brandName {
+    position: absolute;
+    right: 0px;
+    margin-right: 12%;
+    margin-top: 3%;
+    
+}
+.brandName h3 {
+    margin: 0px;
+    font-style: italic;
+    margin-right: 5px;
+    font-size: 1.8vw;
+}
+
+
+.outerBody {
+    margin: 0;
+    height:40vw;
+    width: 25%;
+    color:black;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    
+   
+    
+    transform: translate(-50%, -50%);
+    
+    padding: 5px;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px -5px black;
+}
+
+@media screen and (max-width: 800px) {
+   
+    .outerBody {
+        height: 80%;
+        width: 80%;
+        padding: 1px !important;
+    
+    }
+    .innerBody, button, .brandName h3 {
+        font-size: 7vw !important;
+    }
+    .numbers{
+        margin-left: 4vw !important;
+        margin-top:20% !important ;
+    }
+    .operators{
+        margin-top:20% !important ;
+    }
+    button {
+        font-size: 6.5vw !important;
+    }
+    .innerBody{
+        margin: 5% !important;
+    }
+    #clear {
+        margin-right: 18.5% !important;
+        margin-top: 0% !important;
+    }
+    
+}
+
+
+
+    .innerBody {
+        margin: 12%;
+        height: 425px;
+        font-size: 1.8vw;
+    }
+
+        .displayBox {
+        background-color: white;
+        border-radius: 10px;
+        text-align: right;
+        border-style: ridge;
+        margin-top: 20%;
+        margin-bottom: 30%;
+        height: 1.5em;
+        text-overflow: clip;
+        overflow: hidden;
+        
+        
+
+        
+        
+        }
+                .displayedValue {
+                    text-align: left;
+                    margin: 0px;
+                    margin-left: 5px;
+                    
+
+                }
+
+        .numbers {
+            float: left;
+            margin-top: 30%;
+            margin-left: 1.3vw;
+            /* border: 1px solid black; */
+        }
+ 
+        .operators {
+            
+            float: left;
+            /* border: 1px solid black; */
+            margin-top: 30%;
+        }       
+            button {
+                width: 2.2em;
+                height: 2em;
+                font-size: 1.8vw;
+                background-color: white;
+                border-style:none; 
+                margin: 0;
+                padding: 0;
+                float: left;
+                transition-duration: 0.1s;
+                
+
+            }
+
+            button:hover {
+                background-color: #1973e9; 
+                color: white;
+                border-radius: 10px;
+                border: none;
+            }
+            button:active {
+                background-color: #1973e9; 
+                box-shadow: 0 5px #666;
+                transform: translateY(4px);
+              }
+            button:focus{
+                outline: none;
+            }
+            #clear {
+                
+                position: absolute;
+                right:0px;
+                margin-right: 20%;
+                margin-top: 5%;
+            }
